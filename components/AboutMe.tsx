@@ -17,7 +17,7 @@ export function AboutMe() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="flex justify-center md:justify-end">
-            <div className="relative w-full max-w-md aspect-square rounded-lg overflow-hidden shadow-xl">
+            <div className="relative w-full max-w-lg aspect-auto rounded-lg overflow-hidden shadow-xl">
               <Image
                 src="/placeholder.svg?height=600&width=600&text=Belén+Gómez"
                 alt="Belén Gómez"
