@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Belén Gómez | Influencer & Creadora de Contenido",
   description: "Portfolio profesional de Belén Gómez, influencer y creadora de contenido de Uruguay",
-    generator: 'v0.dev'
+    generator: 'Rodrigo Rey'
 }
 
 export default function RootLayout({
