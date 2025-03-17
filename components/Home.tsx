@@ -90,7 +90,7 @@ export function Home() {
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-2">
               {/* Instagram en navbar - NEGRO con hover AZUL */}
-              <a href="https://instagram.com/belengomez" target="_blank" rel="noopener noreferrer">
+              <a href="https://instagram.com/beluuu_gomez" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="ghost"
                   size="icon"
@@ -101,7 +101,7 @@ export function Home() {
                 </Button>
               </a>
               {/* TikTok en navbar - NEGRO con hover AZUL */}
-              <a href="https://tiktok.com/@belengomez" target="_blank" rel="noopener noreferrer">
+              <a href="https://tiktok.com/@melliis7" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="ghost"
                   size="icon"
@@ -115,7 +115,7 @@ export function Home() {
                 </Button>
               </a>
               {/* WhatsApp en navbar - NEGRO con hover AZUL */}
-              <a href="https://wa.me/59899123456" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/59898029035" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="ghost"
                   size="icon"
@@ -236,7 +236,7 @@ export function Home() {
                     <div className="bg-blue-100 p-3 rounded-full mr-4">
                       <Instagram className="h-5 w-5 text-blue-600" />
                     </div>
-                    <span>@belengomez</span>
+                    <span>@beluuu_gomez</span>
                   </a>
 
                   {/* TikTok - AZUL */}
@@ -249,12 +249,12 @@ export function Home() {
                     <div className="bg-blue-100 p-3 rounded-full mr-4">
                       <TikTokIconBlue />
                     </div>
-                    <span>@belengomez</span>
+                    <span>@melliis7</span>
                   </a>
 
                   {/* WhatsApp - AZUL */}
                   <a
-                    href="https://wa.me/59899123456"
+                    href="https://wa.me/59898029035"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center text-gray-700 hover:text-blue-600 transition-colors"
@@ -262,16 +262,19 @@ export function Home() {
                     <div className="bg-blue-100 p-3 rounded-full mr-4">
                       <WhatsAppIconBlue />
                     </div>
-                    <span>+598 99 123 456</span>
+                    <span>+598 98 029 035</span>
                   </a>
 
                   {/* Email - AZUL */}
-                  <div className="flex items-center text-gray-700">
+                    <a
+                    href="mailto:Belugomez177@gmail.com"
+                    className="flex items-center text-gray-700 hover:text-blue-600 transition-colors"
+                    >
                     <div className="bg-blue-100 p-3 rounded-full mr-4">
                       <Mail className="h-5 w-5 text-blue-600" />
                     </div>
-                    <span>belen.gomez@example.com</span>
-                  </div>
+                    <span>Belugomez177@gmail.com</span>
+                    </a>
                 </div>
               </div>
               <div>
@@ -288,7 +291,7 @@ export function Home() {
           </p>
           <div className="flex items-center gap-4">
             {/* Instagram en footer - NEGRO con hover AZUL */}
-            <a href="https://instagram.com/belengomez" target="_blank" rel="noopener noreferrer">
+            <a href="https://instagram.com/beluuu_gomez" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="ghost"
                 size="icon"
@@ -299,7 +302,7 @@ export function Home() {
               </Button>
             </a>
             {/* TikTok en footer - NEGRO con hover AZUL */}
-            <a href="https://tiktok.com/@belengomez" target="_blank" rel="noopener noreferrer">
+            <a href="https://tiktok.com/@melliis7" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="ghost"
                 size="icon"
@@ -313,7 +316,7 @@ export function Home() {
               </Button>
             </a>
             {/* WhatsApp en footer - NEGRO con hover AZUL */}
-            <a href="https://wa.me/59899123456" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/59898029035" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="ghost"
                 size="icon"
