@@ -85,7 +85,7 @@ export function AboutMe() {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-900">Comunidad</h4>
-                    <p className="text-sm text-gray-600">Más de 100K seguidores en redes sociales</p>
+                    <p className="text-sm text-gray-600">Más de 300K seguidores en redes sociales</p>
                   </div>
                 </CardContent>
               </Card>

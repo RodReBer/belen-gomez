@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
+import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
 import { cn } from "@/lib/utils"
 import Image from "next/image"
 
@@ -108,6 +108,7 @@ export function PortfolioGallery() {
               </div>
             </DialogTrigger>
             <DialogContent className="sm:max-w-[600px]">
+              <DialogTitle className="hidden">{item.title}</DialogTitle>
               <div className="grid gap-4">
                 <div className="relative aspect-video overflow-hidden rounded-lg">
                   <Image
