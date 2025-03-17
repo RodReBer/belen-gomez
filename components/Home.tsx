@@ -266,12 +266,15 @@ export function Home() {
                   </a>
 
                   {/* Email - AZUL */}
-                  <div className="flex items-center text-gray-700">
+                    <a
+                    href="mailto:Belugomez177@gmail.com"
+                    className="flex items-center text-gray-700 hover:text-blue-600 transition-colors"
+                    >
                     <div className="bg-blue-100 p-3 rounded-full mr-4">
                       <Mail className="h-5 w-5 text-blue-600" />
                     </div>
                     <span>Belugomez177@gmail.com</span>
-                  </div>
+                    </a>
                 </div>
               </div>
               <div>
